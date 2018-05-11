@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.description = 'This extension adds the following features: 1. Adds a link Mark as favorite on product detail page. 2. Favorite Products tab on header 3. Favorite Products tab in admin section'
   s.required_ruby_version = '>= 2.2.7'
 
-  s.author    = ['Mohit Bansal', 'Anurag Bharadwaj', '+ vinsol team']
-  s.email     = 'info@vinsol.com'
-  s.homepage  = 'http://vinsol.com'
+  s.author    = ['Michal Smiechowicz based on vinsol gem']
+  s.email     = 'mic.smiechowicz@gmail.com'
+  s.homepage  = ''
   s.license   = "MIT"
 
   s.files       = `git ls-files`.split("\n")
