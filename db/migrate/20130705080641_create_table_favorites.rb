@@ -4,6 +4,7 @@ class CreateTableFavorites < SpreeExtension::Migration[4.2]
       t.integer :user_id
       t.integer :product_id
       t.timestamps null: false
+      t.string :guest_token
     end
   end
 end
